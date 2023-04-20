@@ -540,3 +540,31 @@ inner {
   background-color: orange;
   transition: 0.5s;
 }
+
+@media (min-width: 768px) {
+	.container1 {
+		display: none;
+	}}
+
+  @media (max-width: 767px) {
+    .pc{
+      display: none;
+    }
+  
+   
+  }
+ 
+  
+  .container1{
+    width:100wh;
+    height:100vh;
+    background: #eff4fd;
+    font-family: "Roboto", sans-serif;
+    
+  }
+  
+  .container1 h1 span {
+    color: orange;
+    /* font-weight: 600; */
+  }
+  
