@@ -103,6 +103,7 @@ b {
   display: inline-block;
   font-weight: 600;
   transition: all 0.3s ease;
+  cursor: pointer;
   /* text-transform: uppercase; */
 }
 .home button:hover {
@@ -113,6 +114,7 @@ b {
   margin: 25px 0;
   border-radius: 6px;
   font-weight: 600;
+  /* cursor: pointer; */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   /* box-shadow: ; */
   /* text-transform: uppercase; */
@@ -121,10 +123,12 @@ b {
 .home button a {
   color: #fff;
   text-decoration: none;
+  cursor: pointer;
 }
 .home button:hover a {
   color: #eff4fd;
   text-decoration: none;
+  cursor: pointer;
 }
 .home {
   margin-left: 6%;
@@ -290,7 +294,7 @@ b {
   position: relative;
   display: block;
   width: calc(150% + 1.3px);
-  height: 139px;
+  height: 115px;
 }
 
 .curve .shape-fill {
@@ -561,7 +565,7 @@ inner {
     height:100vh;
     background: #eff4fd;
     font-family: "Roboto", sans-serif;
-    
+    text-align: center; 
   }
   
   .container1 h1 span {
