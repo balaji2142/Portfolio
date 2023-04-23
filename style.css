@@ -5,7 +5,9 @@
   padding: 0;
   font-family: "poppins", sans-serif;
 }
-
+.pc{
+  width: 100%; height:100vh;
+}
 .hero {
   position: relative;
   width: 100%;
@@ -251,7 +253,7 @@ b {
   vertical-align: middle;
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 4px solid orange;
   background-color: #eff4fd;
   margin-right: 50px;
@@ -388,6 +390,41 @@ b {
   /* height: 100vh;
   width: 100wh; */
 }
+.center {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.center button{
+  margin-bottom: 0.5rem;
+  padding: 0rem 0.5rem;
+  border-radius:  15px;
+  background-color:#212121;
+  border: none;
+  font-size: 0.9rem;
+  color: #eff4fd;
+  text-decoration: underline;
+  text-decoration: none;
+}
+.center button a{
+  text-decoration: none;
+  color: #5285e6;
+}
+.center button :hover{
+  margin-bottom: 0.5rem;
+  padding: 0rem 0.5rem;
+  border-radius:  15px;
+  font-size: 0.9rem;
+  color: orange;
+  border: 1px solid orange;
+  text-decoration: underline;
+  text-decoration: none;
+  
+}
+
 
 inner {
   padding-top: 20px;
@@ -623,13 +660,13 @@ inner {
 }
 
 .contact-form {
-  background-color: #1abc9c;
+  background-color: orange;
   position: relative;
 }
 
 .circle {
   border-radius: 50%;
-  background: linear-gradient(135deg, transparent 20%, #149279);
+  background: linear-gradient(135deg, transparent 20%, #f65c22);
   position: absolute;
 }
 
@@ -652,7 +689,7 @@ inner {
   position: absolute;
   width: 26px;
   height: 26px;
-  background-color: #1abc9c;
+  background-color: orange;
   transform: rotate(45deg);
   top: 50px;
   left: -13px;
@@ -667,7 +704,7 @@ form {
 
 .title {
   color: #fff;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1.5rem;
   line-height: 1;
   margin-bottom: 0.7rem;
@@ -724,7 +761,7 @@ textarea.input {
   background-color: #fff;
   border: 2px solid #fafafa;
   font-size: 0.95rem;
-  color: #1abc9c;
+  color: orange;
   line-height: 1;
   border-radius: 25px;
   outline: none;
@@ -736,6 +773,7 @@ textarea.input {
 .btn:hover {
   background-color: transparent;
   color: #fff;
+  border: 2px solid #fafafa;
 }
 
 .input-container span {
@@ -758,7 +796,7 @@ textarea.input {
   opacity: 0;
   transition: 0.3s;
   height: 5px;
-  background-color: #1abc9c;
+  background-color: orange;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -787,23 +825,37 @@ textarea.input {
 .contact-info {
   padding: 2.3rem 2.2rem;
   position: relative;
+  background-color: #212121;
+  color: #eff4fd;
 }
 
 .contact-info .title {
-  color: #1abc9c;
+  color: orange;
 }
 
 .text {
-  color: #333;
+  color: #eff4fd;
   margin: 1.5rem 0 2rem 0;
 }
 
-.information {
+.information{
   display: flex;
-  color: #555;
+  color: #eff4fd;
   margin: 0.7rem 0;
   align-items: center;
   font-size: 0.95rem;
+  
+}
+.information p a {
+  color: #eff4fd;
+  text-decoration: none;
+}
+.information p a:hover {
+  color: #c3d6fb ;
+  text-decoration: none;
+  font-weight: 400;
+  /* font-size:10px; */
+  
 }
 
 .icon {
@@ -816,7 +868,7 @@ textarea.input {
 }
 
 .social-media p {
-  color: #333;
+  color: #eff4fd;
 }
 
 .social-icons {
@@ -828,8 +880,8 @@ textarea.input {
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  background: linear-gradient(45deg, #1abc9c, #149279);
-  color: #fff;
+  background: linear-gradient(45deg, orange, orange);
+  color: #212121;
   text-align: center;
   line-height: 35px;
   margin-right: 0.5rem;
@@ -845,7 +897,9 @@ textarea.input {
   position: absolute;
   width: 110px;
   height: 100px;
-  border: 22px solid #1abc9c;
+  border: 22px solid #f65c22
+
+  ;
   border-radius: 50%;
   bottom: -77px;
   right: 50px;
@@ -967,4 +1021,8 @@ textarea.input {
   .btn {
     padding: 0.45rem 1.2rem;
   }
+}
+
+footer{
+  margin-top: 100%;
 }
