@@ -1023,6 +1023,36 @@ textarea.input {
   }
 }
 
-footer{
-  margin-top: 100%;
+
+.navbar{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.navbar p {
+  font-size: 15px;
+  color: #fff;
+  margin: 0;
+}
+
+.navbar .back-to-top {
+  display: inline-block;
+  font-size: 15px;
+  /* font-weight: 800; */
+  color: #fff;
+  text-decoration: none;
+  /* margin-top: 10px; */
+}
+
+.navbar .back-to-top:hover {
+  color: #f65c22;
+}
+.fa-heart {
+  color: red;
+}
+
+.navbar{
+  background-color: #212121;
+  color: #fff;
 }
