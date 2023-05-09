@@ -1032,7 +1032,7 @@ textarea.input {
 }
 .navbar p {
   font-size: 15px;
-  color: #fff;
+  color: #eff4fd;
   margin: 0;
 }
 
@@ -1040,7 +1040,7 @@ textarea.input {
   display: inline-block;
   font-size: 15px;
   /* font-weight: 800; */
-  color: #fff;
+  color: #eff4fd;
   text-decoration: none;
   /* margin-top: 10px; */
 }
@@ -1054,5 +1054,6 @@ textarea.input {
 
 .navbar{
   background-color: #212121;
-  color: #fff;
+  color: #eff4fd;
 }
+
